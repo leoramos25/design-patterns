@@ -1,6 +1,6 @@
 package simuduck;
 
-import simuduck.quackbehavior.Quack;
+import simuduck.quackbehavior.FakeQuack;
 import simuduck.quackbehavior.QuackBehavior;
 
 public class Hunter {
@@ -9,10 +9,10 @@ public class Hunter {
 
     public Hunter(String name) {
         this.name = name;
-        this.quackBehavior = new Quack();
+        this.quackBehavior = new FakeQuack();
     }
 
-    public void callQuack() {
+    public void emitFakeQuack() {
         quackBehavior.quack();
     }
 }

@@ -18,6 +18,6 @@ public class Main {
         modelDuck.performFly();
 
         Hunter hunter = new Hunter("Leonardo");
-        hunter.callQuack();
+        hunter.emitFakeQuack();
     }
 }
