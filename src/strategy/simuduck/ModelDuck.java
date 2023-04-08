@@ -1,7 +1,7 @@
-package simuduck;
+package strategy.simuduck;
 
-import simuduck.flybehavior.FlyNoWay;
-import simuduck.quackbehavior.Quack;
+import strategy.simuduck.flybehavior.FlyNoWay;
+import strategy.simuduck.quackbehavior.Quack;
 
 public class ModelDuck extends Duck {
     public ModelDuck() {

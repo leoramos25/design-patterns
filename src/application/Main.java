@@ -1,10 +1,10 @@
 package application;
 
-import simuduck.Duck;
-import simuduck.Hunter;
-import simuduck.MallardDuck;
-import simuduck.ModelDuck;
-import simuduck.flybehavior.FlyRocketPowered;
+import strategy.simuduck.Duck;
+import strategy.simuduck.Hunter;
+import strategy.simuduck.MallardDuck;
+import strategy.simuduck.ModelDuck;
+import strategy.simuduck.flybehavior.FlyRocketPowered;
 
 public class Main {
     public static void main(String[] args) {
