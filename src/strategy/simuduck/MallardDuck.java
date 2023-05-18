@@ -4,13 +4,13 @@ import strategy.simuduck.flybehavior.FlyWithWings;
 import strategy.simuduck.quackbehavior.Quack;
 
 public class MallardDuck extends Duck {
-    public MallardDuck() {
-        quackBehavior = new Quack();
-        flyBehavior = new FlyWithWings();
-    }
+  public MallardDuck() {
+    quackBehavior = new Quack();
+    flyBehavior = new FlyWithWings();
+  }
 
-    @Override
-    public void display() {
-        System.out.println("I'm a real Mallard Duck");
-    }
+  @Override
+  public void display() {
+    System.out.println("I'm a real Mallard Duck");
+  }
 }
