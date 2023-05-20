@@ -14,9 +14,9 @@ public class CurrentConditionDisplay implements Observer, DisplayElement {
   }
 
   @Override
-  public void update(Observable o, Object arg) {
-    if (o instanceof WeatherData) {
-      WeatherData weatherData = (WeatherData) o;
+  public void update(Observable observable, Object arg) {
+    if (observable instanceof WeatherData) {
+      WeatherData weatherData = (WeatherData) observable;
       this.temperature = weatherData.getTemperature();
       this.humidity = weatherData.getHumidity();
       display();
