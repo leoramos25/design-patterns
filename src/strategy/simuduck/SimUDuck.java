@@ -1,12 +1,8 @@
-package application;
+package strategy.simuduck;
 
-import strategy.simuduck.Duck;
-import strategy.simuduck.Hunter;
-import strategy.simuduck.MallardDuck;
-import strategy.simuduck.ModelDuck;
 import strategy.simuduck.flybehavior.FlyRocketPowered;
 
-public class Main {
+public class SimUDuck {
   public static void main(String[] args) {
     Duck mallardDuck = new MallardDuck();
     mallardDuck.performQuack();
