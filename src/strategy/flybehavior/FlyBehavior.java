@@ -1,4 +1,4 @@
-package strategy.simuduck.flybehavior;
+package strategy.flybehavior;
 
 public interface FlyBehavior {
   void fly();

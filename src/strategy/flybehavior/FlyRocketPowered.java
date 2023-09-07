@@ -1,4 +1,4 @@
-package strategy.simuduck.flybehavior;
+package strategy.flybehavior;
 
 public class FlyRocketPowered implements FlyBehavior {
   @Override

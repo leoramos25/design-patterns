@@ -1,7 +1,7 @@
-package strategy.simuduck;
+package strategy;
 
-import strategy.simuduck.quackbehavior.FakeQuack;
-import strategy.simuduck.quackbehavior.QuackBehavior;
+import strategy.quackbehavior.FakeQuack;
+import strategy.quackbehavior.QuackBehavior;
 
 public class Hunter {
   String name;
