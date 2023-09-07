@@ -5,8 +5,6 @@ public class DarkRoast extends Beverage {
     this.description = "Dark roast coffee";
   }
 
-
-
   @Override
   public double cost() {
     return 0.99;
